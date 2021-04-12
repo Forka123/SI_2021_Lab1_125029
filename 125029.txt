@@ -1,0 +1,57 @@
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        125029.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git add 125029.txt
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git config --global user.email "forchekamcheva25@gmail.com"
+
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git config --global user.name "Forka123"
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   125029.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   125029.txt
+
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git commit -m "Add LICENSE and finish 125029."
+[master (root-commit) bafa290] Add LICENSE and finish 125029.
+ 1 file changed, 21 insertions(+)
+ create mode 100644 125029.txt
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+$ git log
+commit bafa290a34ac2b089c8704a1b4828a1ca7b18209 (HEAD -> master)
+Author: Forka123 <forchekamcheva25@gmail.com>
+Date:   Mon Apr 12 12:33:54 2021 +0200
+
+    Add LICENSE and finish 125029.
+
+ENLOGISTIK1@ENLOGISTIK MINGW64 ~/store/store (master)
+
